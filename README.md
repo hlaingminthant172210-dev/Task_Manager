@@ -75,8 +75,8 @@ Make sure you have installed:
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/hlaingminthant172210-dev/task-manager-api.git
-cd task-manager-api
+git clone https://github.com/hlaingminthant172210-dev/Task_Manager.git
+cd Task_Manager
 ```
 
 ### Create a Virtual Environment
@@ -87,7 +87,7 @@ python -m venv myenv
 
 ### Activate the Virtual Environment
 
-#### Linux / macOS
+#### Linux 
 
 ```bash
 source myenv/bin/activate
