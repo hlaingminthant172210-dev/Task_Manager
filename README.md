@@ -163,15 +163,15 @@ http://127.0.0.1:8000/redoc
 Task_Manager/
 │
 ├── App/
-│ ├── CRUD/
-│ ├── Models/
-│ ├── Routes/
-│ ├── Utils/
-│ └── Database/
+│   ├── CRUD/
+│   ├── Models/
+│   ├── Routes/
+│   ├── Utils/
+│   └── Database/
 │
 ├── requirements.txt
 ├── README.md
-└──.gitignore
+└── .gitignore
 
 
 ## API Endpoints
