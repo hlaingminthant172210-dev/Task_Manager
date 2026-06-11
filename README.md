@@ -159,7 +159,7 @@ http://127.0.0.1:8000/redoc
 ```
 
 ## Project Structure
-
+```
 Task_Manager/
 ├── App/
 │   ├── CRUD/
@@ -170,7 +170,7 @@ Task_Manager/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
-
+```
 
 ## API Endpoints
 
