@@ -242,6 +242,7 @@ This project helped me practice:
 * Docker Deployment
 
 ## Author
-
+```
 Hlaing Min Thant
 A Mechanical Engineering student learning Python and Data Structures.Interested in backend development and IoT,building projects to grow into a software engineer.
+```
