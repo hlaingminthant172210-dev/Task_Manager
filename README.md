@@ -111,7 +111,33 @@ DATABASE_NAME=your_database_name
 ### Run the Application
 
 ```bash
-uvicorn App.main:app --reload
+uvicorn App.Routes.main:app --reload
+
+(or)
+
+Check:
+
+$which uvicorn
+
+If it shows something like:
+
+/usr/bin/uvicorn
+
+that's the problem.
+
+It should look more like:
+
+.../myenv/bin/uvicorn
+
+Try running:
+
+python -m uvicorn App.Routes.main:app --reload
+
+instead of:
+
+uvicorn App.Routes.main:app --reload
+
+This forces Python to use packages from the active virtual environment.
 ```
 
 The API will be available at:
